@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:animationCache="true"
+        android:layout_weight="9">
+        <EditText
+            android:id="@+id/url"
+            android:layout_width="wrap_content"
+            android:layout_weight="9"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:inputType="textUri"
+            android:imeOptions="actionGo"
+            />
+        <Button
+            android:id="@+id/connect"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="connect"
+            />
+    </LinearLayout>
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        />
+</LinearLayout>

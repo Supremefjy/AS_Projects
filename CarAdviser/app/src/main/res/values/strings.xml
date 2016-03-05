@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Car Adviser</string>
+    <string name="find_car">Find Car !</string>
+    <string-array name="car_types">
+        <item>电动车</item>
+        <item>跑车</item>
+        <item>SUV</item>
+        <item>皮卡</item>
+    </string-array>
+    <string name="action_settings">Settings</string>
+</resources>
